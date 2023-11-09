@@ -1,0 +1,26 @@
+
+h1 {
+    font-size: 50px;
+}
+
+.card {
+    height: 300px;
+    width: 180px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#add:hover{
+    opacity: 0.5;
+}

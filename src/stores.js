@@ -1,0 +1,3 @@
+import { writable } from 'svelte/store';
+
+export const desk_data = writable({ "storia": { label: "Storia", sheets: { "documento1": { label: "Nuovo documento", text: "informatica: scienza che si occupa del trattamento dell'informazione automatica sistemi informatici si collega con la matematica, l'automatica, l'elettronica e l'elettromeccanica Si accompagna e si integra in qualunque \"mezzo\" o \"strumento\" di utilizzo quotidiano tutti siamo in qualche modo informatici materia strategica importante nello sviluppo economico e sociale ha dato inizio alla terza rivoluzione industriale (o rivoluzione digitale) si evolve soprattutto nel campo della telefonia" } }} });
