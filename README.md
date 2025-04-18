@@ -1,38 +1,7 @@
-# create-svelte
+# Learnmate
+### An AI integrated text editor
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+I've created Learnmate in 2023, when OpenAI APIs were public and free. The idea was very simple: a text editor with integrated AI tools to summarize, deepen or explain parts of text, with an integrated chat to ask for other informations or generate some questions and quizzes to evaluate the user about the written content.
+I started working on it a year before NotebookLM even existed; i was very proud of it at the time. I stopped working on this because of the lack of knowledge and the high cost of tokens, after OpenAI made the APIs private.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Made with sveltekit, using only client side code, because i had never tried server sided code in svelte then 😬 (don't judge me for this please)
